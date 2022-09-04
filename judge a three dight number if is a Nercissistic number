@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Demo1 {
+	public static void main(String[]args){
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Please input three dight number");
+		int num1=sc.nextInt();
+if(num1>=100&&num1<=999){
+		int hundredsdight=num1/100;
+		int tensdight=num1%100/10;
+		int untidight=num1%100%10;
+	if((int) (Math.pow(hundredsdight, 3)+Math.pow(tensdight,3)+Math.pow(untidight,3))==num1)   {
+		System.out.println("This is a Narcissistic number");}
+	else{System.out.println("This is not a Nercissistic number");                              }
+                                                                                               }
+else{System.out.println("Please input a accurate three dight number");	
+sc.close();
+
+	
+	
+	
+	 } 
+	                                                                                              }
+}
