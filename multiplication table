@@ -1,0 +1,15 @@
+
+public class While {
+	public static void main(String[] args){
+		for( int u = 1; u<=10; u++){
+			for(int a=1;a<=u;a++){
+			System.out.print(u+"*"+a+"="+u*a+"\t");
+			
+			}
+			System.out.println();
+			
+		
+			
+		
+		}}}
+		
